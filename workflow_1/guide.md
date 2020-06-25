@@ -1,13 +1,4 @@
----
-pageTitle: Soil Monitoring System in Olathe, Colorado (USA)
-layout: layout.njk
-date: 2020-03-22
-updated: 2020-05-11
-image: /img/harold/fields.jpg
-blurb: Developing a Free and Open Source LoRa-based system (softwarre, hardware); prototyping a remote node for caputring relaying data from an SDI-12 - based soil moisture sensor. 
----
-
-Topics covered below:
+Table of Contents:
 
 - [Gateway setup](#gateway)
 - [Remote node setup](#remote)
@@ -17,7 +8,7 @@ Topics covered below:
 
 Now that we have a field relay node design for capturing the soil moisture data and sending it to a LoRa gateway (based on the RAK / Raspberry Pi gateway), we are looking to optimize signal strength in the system.
 
-## <a name="gateway">Remote Node Setup</a>
+## <a name="remote">Remote Node Setup</a>
 
 Several resources are available online around this.  I'll record them here later; but in particular, the tutorial I found particularly relevant was this one by Andreas Spiess:  ["What you always wanted to know about Antennas and nobody told you"](https://www.youtube.com/watch?v=J3PBL9oLPX8).  Summary lessons from this video:
 
@@ -41,6 +32,15 @@ If, however, we wanted another 3dBi gain, we could Opt for the [Taoglas OMB.915.
 
 Nootropic Design has a [nice short article](https://nootropicdesign.com/projectlab/2018/10/27/lorawan-gateway/)  describing their deployment of a RAK gateway outdoors. We can ignore the GPS antenna;  this might be a cheap option for getting the fiberglass antenna mounted as high as possible.
 
-| ![Example Mounting](img/harold/flood.png) |
-|:--:|
-|Example outdoor antenna mounting.|
+
+
+| Step 1: Adding lots of wires n stuff all over.|
+|:--|
+| This step is optional, but it makes everything look really science-y, which is super important.|
+|![Example Mounting](img/harold/flood.png) |
+
+
+| Step 2: Find a fancy diagram. |
+|:--|
+| This *really* makes it look like you know what you're talking about.|
+|![Example Mounting](img/harold/fresnel_zone.png) |
